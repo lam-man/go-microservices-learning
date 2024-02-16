@@ -12,6 +12,8 @@ type Hello struct {
 }
 
 func NewHello(l *log.Logger) *Hello {
+	// What is a package in GoLang?
+	// How to create a new instance of Hello struct
 	return &Hello{l}
 }
 
